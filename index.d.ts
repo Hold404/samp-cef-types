@@ -1,6 +1,7 @@
 interface Cef {
-  on(eventName: string, callback: void): void;
-  off(eventName: string, callback: void): void;
+  set_focus(focused: boolean): void;
+  on(eventName: string, callback: Function): void;
+  off(eventName: string, callback: Function): void;
   hide(hide: boolean): void;
   emit(eventName: string, ...args: any): void;
 }
