@@ -1,0 +1,14 @@
+{
+	"name": "samp-cef-types",
+	"version": "0.0.1",
+	"description": "Types definitions for SAMP CEF Browser API",
+	"main": "index.d.ts",
+	"files": [
+		"index.d.ts"
+	],
+	"author": "Hold404",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	}
+}
